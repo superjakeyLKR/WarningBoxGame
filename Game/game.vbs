@@ -138,9 +138,9 @@ msgbox27=MsgBox("Your answer, " & msgbox26 & ", was correct! Moving on to the ne
 msgbox28=MsgBox("This is the last question, so please don't get this wrong!", 0+64+0, "So close...")
 msgbox29=InputBox("Mad Hatter Syndrome is caused by what perodic element? (You can say its abbreviation or its full name.)", "Question 11", "Answer Here")
 If not LCase(msgbox29) = "mercury" Or LCase(msgbox29) = "hg" Then
-msgbox30=MsgBox("Your answer, " & msgbox24 & ", is wrong. You came all this way, just to lose on the last question.", 0+48+0, "...but so far.")
+msgbox30=MsgBox("Your answer, " & msgbox29 & ", is wrong. You came all this way, just to lose on the last question.", 0+48+0, "...but so far.")
 Else
-msgbox30=MsgBox("Your answer, " & msgbox26 & ", was correct!", 0+64+0, "Correct Answer")
+msgbox30=MsgBox("Your answer, " & msgbox29 & ", was correct!", 0+64+0, "Correct Answer")
 msgbox21=MsgBox("Well done, " & msgbox2 &", you got ending 1! Ending Name: Finished the Quiz", 0+64+0, "Finished the Quiz")
 WScript.Quit
 End If
