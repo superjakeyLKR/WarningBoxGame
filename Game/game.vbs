@@ -136,8 +136,8 @@ msgbox27=MsgBox("Your answer, " & msgbox26 & ", is wrong. The quiz will now end.
 Else
 msgbox27=MsgBox("Your answer, " & msgbox26 & ", was correct! Moving on to the next question.", 0+64+0, "Correct Answer")
 msgbox28=MsgBox("This is the last question, so please don't get this wrong!", 0+64+0, "So close...")
-msgbox29=InputBox("Mad Hatter Syndrome is caused by what perodic element? (You can say its atomic number, its abbreviation or its full name.)", "Question 11", "Answer Here")
-If not LCase(msgbox29) = "mercury" Or LCase(msgbox29) = "hg" Or msgbox29 = 80 Then
+msgbox29=InputBox("Mad Hatter Syndrome is caused by what perodic element? (You can say its abbreviation or its full name.)", "Question 11", "Answer Here")
+If not LCase(msgbox29) = "mercury" Or LCase(msgbox29) = "hg" Then
 msgbox30=MsgBox("Your answer, " & msgbox24 & ", is wrong. You came all this way, just to lose on the last question.", 0+48+0, "...but so far.")
 Else
 msgbox30=MsgBox("Your answer, " & msgbox26 & ", was correct!", 0+64+0, "Correct Answer")
